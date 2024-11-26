@@ -9,132 +9,136 @@
 <body>
     <div class="container">
         <h1>Quel est votre tempérament ?</h1>
-        <p>Voici un petit jeu pour déterminer votre tempérament. Répondez aux questions en sélectionnant une réponse qui vous correspond le plus.</p>
+        <p>Voici un petit jeu pour déterminer votre tempérament.<br>Répondez aux questions en sélectionnant une réponse qui vous correspond le plus.</p>
 
         <form id="quiz-form">
             <!-- Questions -->
-            <div class="question">
-                <label>1. Êtes-vous frileux ?</label><br>
-                <input type="radio" name="q1" value="N,L"> Oui<br>
-                <input type="radio" name="q1" value="S,B"> Non
+            <div class="questionZone">
+                <div class="colonne1">
+                    <div class="question">
+                        <label>1. Êtes-vous frileux ?</label><br>
+                        <input type="radio" name="q1" value="N,L"> Oui<br>
+                        <input type="radio" name="q1" value="S,B"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>2. Êtes-vous plutôt fin ?</label><br>
+                        <input type="radio" name="q2" value="N,B"> Oui<br>
+                        <input type="radio" name="q2" value="L,S"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>3. Êtes-vous plutôt musclé ?</label><br>
+                        <input type="radio" name="q3" value="S,B"> Oui<br>
+                        <input type="radio" name="q3" value="L,N"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>4. Avez-vous souvent des troubles de digestion ?</label><br>
+                        <input type="radio" name="q4" value="N,L"> Oui<br>
+                        <input type="radio" name="q4" value="S,B"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>5. Aimez-vous pratiquer un sport physique ?</label><br>
+                        <input type="radio" name="q5" value="S,B"> Oui<br>
+                        <input type="radio" name="q5" value="L,N"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>6. Êtes-vous très mental ?</label><br>
+                        <input type="radio" name="q6" value="N"> Oui<br>
+                        <input type="radio" name="q6" value="S,B,L"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>7. Aimez-vous planifier ?</label><br>
+                        <input type="radio" name="q7" value="N,B"> Oui<br>
+                        <input type="radio" name="q7" value="L,S"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>8. Êtes-vous stressé de nature ?</label><br>
+                        <input type="radio" name="q8" value="B,N"> Oui<br>
+                        <input type="radio" name="q8" value="L,S"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>9. Êtes-vous souvent dans les premiers à agir ?</label><br>
+                        <input type="radio" name="q9" value="B,S"> Oui<br>
+                        <input type="radio" name="q9" value="L,N"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>10. Préférez-vous être seul ?</label><br>
+                        <input type="radio" name="q10" value="B,N"> Oui<br>
+                        <input type="radio" name="q10" value="L,S"> Non
+                    </div>
+                </div>
+                <div class="colonne2">
+                    <div class="question">
+                        <label>11. Êtes-vous plutôt conservateur ?</label><br>
+                        <input type="radio" name="q11" value="L,N"> Oui<br>
+                        <input type="radio" name="q11" value="S,B"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>12. Êtes-vous naturellement meneur ?</label><br>
+                        <input type="radio" name="q12" value="S,B"> Oui<br>
+                        <input type="radio" name="q12" value="L,N"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>13. Êtes-vous rancunier ?</label><br>
+                        <input type="radio" name="q13" value="B"> Oui<br>
+                        <input type="radio" name="q13" value="L,N,S"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>14. Votre visage est-il plutôt :</label><br>
+                        <input type="radio" name="q14" value="L"> Rond<br>
+                        <input type="radio" name="q14" value="N"> En V<br>
+                        <input type="radio" name="q14" value="S"> Massif<br>
+                        <input type="radio" name="q14" value="B"> Carré
+                    </div>
+        
+                    <div class="question">
+                        <label>15. Votre peau en majeure partie est-elle très pâle ?</label><br>
+                        <input type="radio" name="q15" value="L,N"> Oui<br>
+                        <input type="radio" name="q15" value="S,B"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>16. Votre teint est-il :</label><br>
+                        <input type="radio" name="q16" value="S"> Rouge<br>
+                        <input type="radio" name="q16" value="B"> Bronzé, coloré
+                    </div>
+        
+                    <div class="question">
+                        <label>17. Avez-vous les mains plutôt :</label><br>
+                        <input type="radio" name="q17" value="S,L"> Humides<br>
+                        <input type="radio" name="q17" value="N,B"> Sèches
+                    </div>
+        
+                    <div class="question">
+                        <label>18. Êtes-vous plutôt :</label><br>
+                        <input type="radio" name="q18" value="N,B"> Introverti<br>
+                        <input type="radio" name="q18" value="S,B"> Extraverti
+                    </div>
+        
+                    <div class="question">
+                        <label>19. Votre digestion est-elle à toute épreuve ?</label><br>
+                        <input type="radio" name="q19" value="S"> Oui<br>
+                        <input type="radio" name="q19" value="N"> Non
+                    </div>
+        
+                    <div class="question">
+                        <label>20. Avez-vous un bon appétit ?</label><br>
+                        <input type="radio" name="q20" value="S,B,L"> Oui<br>
+                        <input type="radio" name="q20" value="L,B,N"> Non
+                    </div>
+                </div>
             </div>
-
-            <div class="question">
-                <label>2. Êtes-vous plutôt fin ?</label><br>
-                <input type="radio" name="q2" value="N,B"> Oui<br>
-                <input type="radio" name="q2" value="L,S"> Non
-            </div>
-
-            <div class="question">
-                <label>3. Êtes-vous plutôt musclé ?</label><br>
-                <input type="radio" name="q3" value="S,B"> Oui<br>
-                <input type="radio" name="q3" value="L,N"> Non
-            </div>
-
-            <div class="question">
-                <label>4. Avez-vous souvent des troubles de digestion ?</label><br>
-                <input type="radio" name="q4" value="N,L"> Oui<br>
-                <input type="radio" name="q4" value="S,B"> Non
-            </div>
-
-            <div class="question">
-                <label>5. Aimez-vous pratiquer un sport physique ?</label><br>
-                <input type="radio" name="q5" value="S,B"> Oui<br>
-                <input type="radio" name="q5" value="L,N"> Non
-            </div>
-
-            <div class="question">
-                <label>6. Êtes-vous très mental ?</label><br>
-                <input type="radio" name="q6" value="N"> Oui<br>
-                <input type="radio" name="q6" value="S,B,L"> Non
-            </div>
-
-            <div class="question">
-                <label>7. Aimez-vous planifier ?</label><br>
-                <input type="radio" name="q7" value="N,B"> Oui<br>
-                <input type="radio" name="q7" value="L,S"> Non
-            </div>
-
-            <div class="question">
-                <label>8. Êtes-vous stressé de nature ?</label><br>
-                <input type="radio" name="q8" value="B,N"> Oui<br>
-                <input type="radio" name="q8" value="L,S"> Non
-            </div>
-
-            <div class="question">
-                <label>9. Êtes-vous souvent dans les premiers à agir ?</label><br>
-                <input type="radio" name="q9" value="B,S"> Oui<br>
-                <input type="radio" name="q9" value="L,N"> Non
-            </div>
-
-            <div class="question">
-                <label>10. Préférez-vous être seul ?</label><br>
-                <input type="radio" name="q10" value="B,N"> Oui<br>
-                <input type="radio" name="q10" value="L,S"> Non
-            </div>
-
-            <div class="question">
-                <label>11. Êtes-vous plutôt conservateur ?</label><br>
-                <input type="radio" name="q11" value="L,N"> Oui<br>
-                <input type="radio" name="q11" value="S,B"> Non
-            </div>
-
-            <div class="question">
-                <label>12. Êtes-vous naturellement meneur ?</label><br>
-                <input type="radio" name="q12" value="S,B"> Oui<br>
-                <input type="radio" name="q12" value="L,N"> Non
-            </div>
-
-            <div class="question">
-                <label>13. Êtes-vous rancunier ?</label><br>
-                <input type="radio" name="q13" value="B"> Oui<br>
-                <input type="radio" name="q13" value="L,N,S"> Non
-            </div>
-
-            <div class="question">
-                <label>14. Votre visage est-il plutôt :</label><br>
-                <input type="radio" name="q14" value="L"> Rond<br>
-                <input type="radio" name="q14" value="N"> En V<br>
-                <input type="radio" name="q14" value="S"> Massif<br>
-                <input type="radio" name="q14" value="B"> Carré
-            </div>
-
-            <div class="question">
-                <label>15. Votre peau en majeure partie est-elle très pâle ?</label><br>
-                <input type="radio" name="q15" value="L,N"> Oui<br>
-                <input type="radio" name="q15" value="S,B"> Non
-            </div>
-
-            <div class="question">
-                <label>16. Votre teint est-il :</label><br>
-                <input type="radio" name="q16" value="S"> Rouge<br>
-                <input type="radio" name="q16" value="B"> Bronzé, coloré
-            </div>
-
-            <div class="question">
-                <label>17. Avez-vous les mains plutôt :</label><br>
-                <input type="radio" name="q17" value="S,L"> Humides<br>
-                <input type="radio" name="q17" value="N,B"> Sèches
-            </div>
-
-            <div class="question">
-                <label>18. Êtes-vous plutôt :</label><br>
-                <input type="radio" name="q18" value="N,B"> Introverti<br>
-                <input type="radio" name="q18" value="S,B"> Extraverti
-            </div>
-
-            <div class="question">
-                <label>19. Votre digestion est-elle à toute épreuve ?</label><br>
-                <input type="radio" name="q19" value="S"> Oui<br>
-                <input type="radio" name="q19" value="N"> Non
-            </div>
-
-            <div class="question">
-                <label>20. Avez-vous un bon appétit ?</label><br>
-                <input type="radio" name="q20" value="S,B,L"> Oui<br>
-                <input type="radio" name="q20" value="L,B,N"> Non
-            </div>
-
             <button type="button" onclick="calculateResults()">Voir les résultats</button>
         </form>
 
